@@ -18,6 +18,7 @@ An HTML element is defined by a start tag, some content, and an end tag (though 
 Example of an element in HTML would look something like `<p>Hello Welcome</p>`  
 
 ### A basic HTML page
+*basic-webpage.html*
 ```
 <!DOCTYPE html>
 <html>
@@ -51,7 +52,50 @@ Example of an element in HTML would look something like `<p>Hello Welcome</p>`
 `<table>` Defines a table  
 [Read more](https://www.w3schools.com/TAGS/default.ASP)
 
-For this tutorial I am going to make a webpage for the car [Rolls-Royce Ghost](https://www.rolls-roycemotorcars.com/en_US/showroom/ghost.html)
+For this tutorial I am going to make a webpage for [Rolls-Royce Motor Cars](https://www.rolls-roycemotorcars.com/en_GB/home.html)
+*index.html*
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rolls-Royce Motor Cars</title>
+</head>
+
+<body>
+
+    <h1><b>Rolls-Royce Motor Cars</b></h1>
+    <h3>AN ASSEMBLY OF THE EXTRAORDINARY</h3>
+    <p><i>
+            Each Rolls-Royce model is unique in both character and performance.<br>
+            Discover the defining characteristics of our motor cars and commission your new Rolls-Royce today.
+        </i></p>
+    <h4>THE ROLLS-ROYCE SHOWROOM</h4>
+    <a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/cullinan.html">
+        <img src="img/car-models/Cullinan.jpg" title="Rolls-Royce Cullinan" alt="Cullinan" width="700" height="400">
+    </a>
+    <a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/phantom.html">
+        <img src="img/car-models/Phantom.jpg" title="Rolls-Royce Phantom" alt="Phantom" width="700" height="400">
+    </a>
+    <h3>Other Models</h3>
+    <ol>
+        <li>Bespoke</li>
+        <ul>
+            <li><a href="https://www.rolls-roycemotorcars.com/en_GB/inspiring-greatness/visionaries/the-making-of-boat-tail.html" target="_blank">Boat Tail</a></li>
+        </ul>
+        <li><a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/ghost.html">Ghost</a></li>
+        <li><a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/dawn.html">Dawn</a></li>
+        <li><a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/wraith.html">Wraith</a></li>
+    </ol>
+
+</body>
+
+</html>
+```
+
+![Only HTML](asset/../assests/html-only.jpg "Only HTML")  
+
+
 
 
 
