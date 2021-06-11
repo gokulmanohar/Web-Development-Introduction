@@ -300,4 +300,4 @@ The final webpage would look something like this
 ![No CSS](asset/../assets/html-only.jpg "No CSS")  
 
 All respective images is attributed to their respective owners.  
-[Rolls-Royce Motor Cars](https://www.rolls-roycemotorcars.com/en_GB/home.html)  
+[![Rolls-Royce Motor Cars](asset/../assets/rrlogo.png)](https://www.rolls-roycemotorcars.com/en_GB/home.html) 
