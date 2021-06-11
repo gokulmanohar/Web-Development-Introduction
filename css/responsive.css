@@ -1,3 +1,4 @@
+/* Mobile displays */
 @media only screen and (min-width: 768px) {
     h1 {
         font-size: 5em;
@@ -20,6 +21,7 @@
     }
 }
 
+/* Desktop displays */
 @media only screen and (min-width: 992px) {
     h1 {
         font-size: 3em;
