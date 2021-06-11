@@ -37,20 +37,13 @@ h1 {
     text-align: center;
 }
 
-.image-gallery img {
+.image-gallery span {
     display: inline-block;
+}
+
+.image-gallery img {
     margin: 1.5em;
     height: 350px;
     width: 350px;
     border-radius: 4px;
-}
-
-.member-name {
-    /* padding-left: 17px; */
-    font-size: 10px;
-    font-weight: 100;
-    letter-spacing: 1px;
-    margin-top: 6px;
-    float: left;
-    text-transform: uppercase;
 }
