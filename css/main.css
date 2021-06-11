@@ -6,30 +6,32 @@ body {
     background-size: cover;
     /* Always fix the image on screen*/
     background-attachment: fixed;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 h1 {
     font-family: 'Josefin Sans';
     font-weight: 300;
-    font-size: 2.5em;
     color: black;
     text-align: center;
+}
+
+hr {
+    border-top: 1px solid black;
+    margin-bottom: 30px;
 }
 
 .section-heading h3 {
     font-family: 'Josefin Sans';
     font-weight: 400;
-    font-size: 1.5em;
     color: black;
 }
 
 .characteristics-text p {
     font-family: 'Cormorant Garamond';
-    font-style: italic;
     font-weight: 400;
-    font-size: 1.3em;
     padding-left: 1em;
-    width: 700px;
     text-align: center;
 }
 
@@ -42,8 +44,29 @@ h1 {
 }
 
 .image-gallery img {
-    margin: 1.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
     height: 350px;
-    width: 350px;
     border-radius: 4px;
+}
+
+.image-gallery p {
+    font-family: 'Quicksand';
+    color: white;
+    text-transform: capitalize;
+}
+
+ol {
+    font-family: 'Cormorant Garamond';
+    font-weight: 400;
+    color: black;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover {
+    color: rgb(201, 201, 201);
 }

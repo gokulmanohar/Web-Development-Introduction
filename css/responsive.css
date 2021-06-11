@@ -1,0 +1,43 @@
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 5em;
+    }
+    .section-heading h3 {
+        font-size: 3.2em;
+    }
+    .characteristics-text p {
+        font-size: 3em;
+    }
+    .image-gallery img {
+        height: 600px;
+        width: 600px;
+    }
+    .image-gallery p {
+        font-size: 2em;
+    }
+    ol {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 3em;
+    }
+    .section-heading h3 {
+        font-size: 2em;
+    }
+    .characteristics-text p {
+        font-size: 1.8em;
+    }
+    .image-gallery img {
+        height: 350px;
+        width: 350px;
+    }
+    .image-gallery p {
+        font-size: 1.2em;
+    }
+    ol {
+        font-size: 1.8em;
+    }
+}
