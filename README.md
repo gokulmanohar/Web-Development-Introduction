@@ -295,8 +295,7 @@ Then the webpage is made somewhat responsive by defining the font size and image
     }
 }
 ```
-Here [*responsive.css*](css/responsive.css) contains codes for only desktop and mobile devices.  
-
+Here [*responsive.css*](css/responsive.css) contains codes for only desktop and mobile devices. More can be found [here](https://www.w3schools.com/css/css_rwd_mediaqueries.asp).  
 The final webpage would look something like this  
 ![No CSS](asset/../assets/html-only.jpg "No CSS")  
 
