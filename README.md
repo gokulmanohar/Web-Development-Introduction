@@ -14,7 +14,7 @@ HTML & CSS are not Programing languages. We are now using generation 5 of HTML (
 `<h1>....<h6>` Element defines a large heading  
 `<p>` Element defines a paragraph  
 An HTML element is defined by a start tag, some content, and an end tag (though not all tags have a closing tag [eg. `<hr>` Defines horizontal rule])  
-eg `<p>Hello Welcome</p>`  
+Example of an element in HTML would look something like `<p>Hello Welcome</p>`  
 
 ### A basic HTML page
 ```
