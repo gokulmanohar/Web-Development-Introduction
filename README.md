@@ -1,5 +1,5 @@
 # Web-Development-Introduction
-![Website Skeleton](assest/../assests/website-skeleton.png "Website Skeleton")  
+![Website Skeleton](assets/../assets/website-skeleton.png "Website Skeleton")  
 
 ## HTML
 HTML stands for HyperText Markup Language. It is used for creating Web pages. HTML describes the structure of a Web page.  
@@ -37,7 +37,7 @@ Example of an element in HTML would look something like `<p>Hello Welcome</p>`
 </html>
 ```
 
-![Basic HTML Page](assest/../assests/basic-webpage.jpg "Basic HTML Page")  
+![Basic HTML Page](assets/../assets/basic-webpage.jpg "Basic HTML Page")  
 
 ### Some more important tags
 `<img>` Defines an image  
@@ -98,8 +98,35 @@ For this tutorial I am going to make a webpage for [Rolls-Royce Motor Cars](http
 </html>
 ```
 
-![Only HTML](asset/../assests/html-only.jpg "Only HTML")  
+![Only HTML](asset/../assets/html-only.jpg "Only HTML")  
 
+## CSS
+CSS (Cascading Style Sheets) is the code that styles web content. There is Inline CSS, Internal CSS and External CSS.  
+Inline CSS  
+```
+<h1 style="color: red"> Hello world! </h1>
+```
+Internal CSS  
+```
+<head>  
+    <style>  
+        h1 {  
+            color: blue;  
+        }  
+    </style>  
+</head>
+```
+External CSS  
+```
+<head>  
+    <link rel="stylesheet" href="main.css">  
+</head>
+----main.css----
+h1 {  
+   color: red;  
+}
+
+```
 
 
 
