@@ -1,6 +1,6 @@
 # Web Development Introduction
 <p align="center">
-  <img src="assets/../assets/website-skeleton.png" alt="website-skeleton"/>
+  <img src="assets/../assets/website-skeleton.png" alt="Website Skeleton image"/>
 </p>
 
 ## **HTML**
@@ -42,7 +42,7 @@ Example of an element in HTML would look something like `<p>Hello Welcome</p>`
 ```
   
 <p align="center">
-  <img src="assets/../assets/basic-webpage.jpg" alt="Basic HTML Page"/>
+  <img src="assets/../assets/basic-webpage.jpg" alt="Basic HTML Page image"/>
 </p>  
 
 ### Some more important tags
@@ -127,7 +127,7 @@ For this tutorial I am going to make a mock webpage for [Rolls-Royce Motor Cars]
 ```
 
 <p align="center">
-  <img src="asset/../assets/no-css.jpg" alt="No CSS"/>
+  <img src="asset/../assets/no-css.jpg" alt="No CSS image"/>
 </p>   
 
 ## **CSS**
@@ -304,7 +304,7 @@ Then the webpage is made somewhat responsive by defining the font size and image
 Here [*responsive.css*](css/responsive.css) contains codes for only desktop and mobile devices. More can be found [here](https://www.w3schools.com/css/css_rwd_mediaqueries.asp).  
 The final webpage would look something like this  
 <p align="center">
-  <img src="asset/../assets/mobileanddesktop.png" alt="Mobile and Desktop"/>
+  <img src="asset/../assets/mobileanddesktop.png" alt="Mobile and Desktop image"/>
 </p>    
 
 All respective images is attributed to their respective owners.  
