@@ -40,8 +40,10 @@ Example of an element in HTML would look something like `<p>Hello Welcome</p>`
 </html>
 
 ```
-
-![Basic HTML Page](assets/../assets/basic-webpage.jpg "Basic HTML Page")  
+  
+<p align="center">
+  <img src="assets/../assets/basic-webpage.jpg" alt="Basic HTML Page"/>
+</p>  
 
 ### Some more important tags
 `<img>` Defines an image  
