@@ -52,7 +52,7 @@ Example of an element in HTML would look something like `<p>Hello Welcome</p>`
 `<table>` Defines a table  
 [Read more](https://www.w3schools.com/TAGS/default.ASP)
 
-For this tutorial I am going to make a webpage for [Rolls-Royce Motor Cars](https://www.rolls-roycemotorcars.com/en_GB/home.html)
+For this tutorial I am going to make a webpage for [Rolls-Royce Motor Cars](https://www.rolls-roycemotorcars.com/en_GB/home.html)  
 *index.html*
 ```
 <!DOCTYPE html>
@@ -63,25 +63,30 @@ For this tutorial I am going to make a webpage for [Rolls-Royce Motor Cars](http
 </head>
 
 <body>
+    
+    <!-- Do note this is not a responsive webpage -->
 
     <h1><b>Rolls-Royce Motor Cars</b></h1>
     <h3>AN ASSEMBLY OF THE EXTRAORDINARY</h3>
-    <p><i>
+    <p>
+        <i>
             Each Rolls-Royce model is unique in both character and performance.<br>
             Discover the defining characteristics of our motor cars and commission your new Rolls-Royce today.
-        </i></p>
+        </i>
+    </p>
     <h4>THE ROLLS-ROYCE SHOWROOM</h4>
     <a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/cullinan.html">
-        <img src="img/car-models/Cullinan.jpg" title="Rolls-Royce Cullinan" alt="Cullinan" width="700" height="400">
+        <img src="img/car-models/Cullinan.jpg" title="Rolls-Royce Cullinan" alt="Cullinan" width="711" height="400">
     </a>
     <a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/phantom.html">
-        <img src="img/car-models/Phantom.jpg" title="Rolls-Royce Phantom" alt="Phantom" width="700" height="400">
+        <img src="img/car-models/Phantom.jpg" title="Rolls-Royce Phantom" alt="Phantom" width="711" height="400">
     </a>
     <h3>Other Models</h3>
     <ol>
         <li>Bespoke</li>
         <ul>
-            <li><a href="https://www.rolls-roycemotorcars.com/en_GB/inspiring-greatness/visionaries/the-making-of-boat-tail.html" target="_blank">Boat Tail</a></li>
+            <li><a href="https://www.rolls-roycemotorcars.com/en_GB/inspiring-greatness/visionaries/the-making-of-boat-tail.html"
+                    target="_blank">Boat Tail</a></li>
         </ul>
         <li><a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/ghost.html">Ghost</a></li>
         <li><a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/dawn.html">Dawn</a></li>
