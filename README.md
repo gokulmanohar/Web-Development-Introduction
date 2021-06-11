@@ -1,5 +1,7 @@
 # Web Development Introduction
-![Website Skeleton](assets/../assets/website-skeleton.png "Website Skeleton")  
+<p align="center">
+  <img src="assets/../assets/website-skeleton.png" alt="website-skeleton"/>
+</p>
 
 ## **HTML**
 HTML stands for HyperText Markup Language. It is used for creating Web pages. HTML describes the structure of a Web page.  
