@@ -1,7 +1,7 @@
 # Web-Development-Introduction
 ![Website Skeleton](assets/../assets/website-skeleton.png "Website Skeleton")  
 
-## HTML
+## **HTML**
 HTML stands for HyperText Markup Language. It is used for creating Web pages. HTML describes the structure of a Web page.  
 HTML & CSS are not Programing languages. We are now using generation 5 of HTML (HTML5).  
   
@@ -53,7 +53,7 @@ Example of an element in HTML would look something like `<p>Hello Welcome</p>`
 [Read more](https://www.w3schools.com/TAGS/default.ASP)
 
 For this tutorial I am going to make a webpage for [Rolls-Royce Motor Cars](https://www.rolls-roycemotorcars.com/en_GB/home.html)  
-*index.html*
+*only-html.html*
 ```
 <!DOCTYPE html>
 <html>
@@ -63,34 +63,40 @@ For this tutorial I am going to make a webpage for [Rolls-Royce Motor Cars](http
 </head>
 
 <body>
-    
+
     <!-- Do note this is not a responsive webpage -->
 
     <h1><b>Rolls-Royce Motor Cars</b></h1>
-    <h3>AN ASSEMBLY OF THE EXTRAORDINARY</h3>
+    <h3>An Assembly Of The Extraordinary</h3>
     <p>
         <i>
             Each Rolls-Royce model is unique in both character and performance.<br>
             Discover the defining characteristics of our motor cars and commission your new Rolls-Royce today.
         </i>
     </p>
-    <h4>THE ROLLS-ROYCE SHOWROOM</h4>
-    <a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/cullinan.html">
-        <img src="img/car-models/Cullinan.jpg" title="Rolls-Royce Cullinan" alt="Cullinan" width="711" height="400">
+    <h4>EXPLORE BOAT TAIL</h4>
+    <a href="https://www.rolls-roycemotorcars.com/en_GB/bespoke/discover.html">
+        <img src="img/car-models/boattail1.jpg" title="DISCOVER BESPOKE" alt="DISCOVER BESPOKE" width="400"
+            height="400">
     </a>
-    <a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/phantom.html">
-        <img src="img/car-models/Phantom.jpg" title="Rolls-Royce Phantom" alt="Phantom" width="711" height="400">
+    <a href="https://www.rolls-roycemotorcars.com/en_GB/inspiring-greatness/objects/coachbuild-boat-tail.html">
+        <img src="img/car-models/boattail2.jpg" title="DISCOVER BOAT TAIL" alt="DISCOVER BOAT TAIL" width="400"
+            height="400">
     </a>
-    <h3>Other Models</h3>
+    <a href="https://www.rolls-roycemotorcars.com/en_GB/bespoke/coachbuild.html">
+        <img src="img/car-models/boattail3.jpg" title="DISCOVER COACHBUILD" alt="DISCOVER COACHBUILD" width="400"
+            height="400">
+    </a>
+    <h3>Our Garage</h3>
     <ol>
-        <li>Bespoke</li>
+        <li>Coachbuild</li>
         <ul>
             <li><a href="https://www.rolls-roycemotorcars.com/en_GB/inspiring-greatness/visionaries/the-making-of-boat-tail.html"
                     target="_blank">Boat Tail</a></li>
         </ul>
+        <li><a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/phantom.html">Phantom</a></li>
         <li><a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/ghost.html">Ghost</a></li>
         <li><a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/dawn.html">Dawn</a></li>
-        <li><a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/wraith.html">Wraith</a></li>
     </ol>
 
 </body>
@@ -100,8 +106,8 @@ For this tutorial I am going to make a webpage for [Rolls-Royce Motor Cars](http
 
 ![Only HTML](asset/../assets/html-only.jpg "Only HTML")  
 
-## CSS
-CSS (Cascading Style Sheets) is the code that styles web content. There is Inline CSS, Internal CSS and External CSS.  
+## **CSS**
+CSS (Cascading Style Sheets) is the code that styles web content. There is Inline CSS, Internal CSS and External CSS. You can write CSS once and reuse the same sheet in multiple HTML pages.  
 Inline CSS  
 ```
 <h1 style="color: red"> Hello world! </h1>
@@ -121,12 +127,15 @@ External CSS
 <head>  
     <link rel="stylesheet" href="main.css">  
 </head>
-----main.css----
+```
+*main.css*
+```
 h1 {  
    color: red;  
 }
 
 ```
+
 
 
 
