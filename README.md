@@ -1,9 +1,10 @@
 # Web-Development-Introduction
+![Website Skeleton](assest/../assests/website-skeleton.jpg "Website Skeleton")  
+
 ## HTML
 HTML stands for HyperText Markup Language. It is used for creating Web pages. HTML describes the structure of a Web page.  
 HTML & CSS are not Programing languages. We are now using generation 5 of HTML (HTML5).  
   
-![Website Skeleton](assest/../assests/web-skeleton.jpg "Website Skeleton")  
 ### Some main tags
 
 `<!DOCTYPE html>` Declaration defines that this document is an HTML5 document  
@@ -37,7 +38,7 @@ Example of an element in HTML would look something like `<p>Hello Welcome</p>`
 
 ![Basic HTML Page](assest/../assests/basic-webpage.jpg "Basic HTML Page")  
 
-### Some more tags
+### Some more important tags
 `<img>` Defines an image  
 `<a>` Defines a hyperlink  
 `<div>` Defines a section in a document  
@@ -49,6 +50,8 @@ Example of an element in HTML would look something like `<p>Hello Welcome</p>`
 `<span>` Defines a section in a document  
 `<table>` Defines a table  
 [Read more](https://www.w3schools.com/TAGS/default.ASP)
+
+For this tutorial I am going to make a webpage for the car [Rolls-Royce Ghost](https://www.rolls-roycemotorcars.com/en_US/showroom/ghost.html)
 
 
 
