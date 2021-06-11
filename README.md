@@ -126,7 +126,9 @@ For this tutorial I am going to make a mock webpage for [Rolls-Royce Motor Cars]
 </html>
 ```
 
-![No CSS](asset/../assets/html-only.jpg "No CSS")  
+<p align="center">
+  <img src="asset/../assets/no-css.jpg" alt="No CSS"/>
+</p>   
 
 ## **CSS**
 CSS (Cascading Style Sheets) is the code that styles web content. There is Inline CSS, Internal CSS and External CSS. You can write CSS once and reuse the same sheet in multiple HTML pages.  
@@ -301,7 +303,9 @@ Then the webpage is made somewhat responsive by defining the font size and image
 ```
 Here [*responsive.css*](css/responsive.css) contains codes for only desktop and mobile devices. More can be found [here](https://www.w3schools.com/css/css_rwd_mediaqueries.asp).  
 The final webpage would look something like this  
-![No CSS](asset/../assets/html-only.jpg "No CSS")  
+<p align="center">
+  <img src="asset/../assets/mobileanddesktop.png" alt="Mobile and Desktop"/>
+</p>    
 
 All respective images is attributed to their respective owners.  
 [![Rolls-Royce Motor Cars](asset/../assets/rolls-royce.svg)](https://www.rolls-roycemotorcars.com/en_GB/home.html) 
