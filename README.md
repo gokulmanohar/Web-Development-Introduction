@@ -1,5 +1,5 @@
 # Web-Development-Introduction
-![Website Skeleton](assest/../assests/website-skeleton.jpg "Website Skeleton")  
+![Website Skeleton](assest/../assests/website-skeleton.png "Website Skeleton")  
 
 ## HTML
 HTML stands for HyperText Markup Language. It is used for creating Web pages. HTML describes the structure of a Web page.  
