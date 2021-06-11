@@ -1,7 +1,6 @@
 body {
-    /* Path of bg image */
-    background-image: url('../img/bg.jpg');
-    /* No repetition of the image*/
+    background-image: /* filter  */
+    linear-gradient(rgba(173, 173, 173, 0.637), rgba(51, 51, 50, 0.5)), url('../img/bg.jpg');
     background-repeat: no-repeat;
     /* Fit the width*/
     background-size: cover;
@@ -17,19 +16,41 @@ h1 {
     text-align: center;
 }
 
-.tag-heading h3 {
-    font-family: 'Quicksand';
+.section-heading h3 {
+    font-family: 'Josefin Sans';
     font-weight: 400;
     font-size: 1.5em;
     color: black;
 }
-.tag-line p{
+
+.characteristics-text p {
     font-family: 'Cormorant Garamond';
     font-style: italic;
     font-weight: 400;
     font-size: 1.3em;
     padding-left: 1em;
     width: 700px;
-    /* background-color: aqua; */
     text-align: center;
+}
+
+.image-gallery {
+    text-align: center;
+}
+
+.image-gallery img {
+    display: inline-block;
+    margin: 1.5em;
+    height: 350px;
+    width: 350px;
+    border-radius: 4px;
+}
+
+.member-name {
+    /* padding-left: 17px; */
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 6px;
+    float: left;
+    text-transform: uppercase;
 }
